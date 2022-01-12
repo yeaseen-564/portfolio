@@ -8,16 +8,16 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purpleAccent,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Colors.redAccent,
         title: Text(
           "Portfolio",
         ),
         centerTitle: true,
       ),
-      body: SingleChildScrollView(
-        child: Center(
+      body: Center(
+        child: SingleChildScrollView(
           child: Column(
             children: [
               UserProfileAvatar(
@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
                 radius: 100,
                 isActivityIndicatorSmall: true,
                 avatarBorderData: AvatarBorderData(
-                  borderColor: Colors.black,
+                  borderColor: Colors.red,
                   borderWidth: 5.0,
                 ),
               ),
@@ -36,9 +36,9 @@ class Home extends StatelessWidget {
               Text(
                 "YEASEEN AHMED",
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black,
+                  color: Colors.red,
                 ),
               ),
               SizedBox(
@@ -47,7 +47,7 @@ class Home extends StatelessWidget {
               Text(
                 "Works as a Student",
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.red,
                 ),
               ),
               SizedBox(
@@ -56,36 +56,36 @@ class Home extends StatelessWidget {
               Text(
                 "URL:Github.com/yeaseen-564",
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.red,
                 ),
               ),
               SizedBox(
-                height: 200.0,
+                height: 100.0,
               ),
               Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Button(
-                      text: "FACEBOOK",
+                      text: "Facebook",
                     ),
                     SizedBox(
-                      width: 25,
+                      width: 35,
                     ),
                     Button(
-                      text: "GIT-HUB",
+                      text: "Git-hub",
                     ),
                     SizedBox(
-                      width: 25,
+                      width: 35,
                     ),
                     Button(
-                      text: "TWITTER",
+                      text: "Twitter",
                     ),
                     SizedBox(
-                      width: 25,
+                      width: 35,
                     ),
                     Button(
-                      text: "LINKED-IN",
+                      text: "LinkedIn",
                     ),
                   ],
                 ),
