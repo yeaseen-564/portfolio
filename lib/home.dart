@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:portfolio/utils/button.dart';
+import 'package:portfolio/utils/link.dart';
 import 'package:user_profile_avatar/user_profile_avatar.dart';
 
 class Home extends StatelessWidget {
@@ -68,24 +71,28 @@ class Home extends StatelessWidget {
                   children: [
                     Button(
                       text: "Facebook",
+                      text1: Link(""),
                     ),
                     SizedBox(
                       width: 35,
                     ),
                     Button(
                       text: "Git-hub",
+                      text1: Link("www.github.com/yeaseen-564"),
                     ),
                     SizedBox(
                       width: 35,
                     ),
                     Button(
                       text: "Twitter",
+                      text1: Link(""),
                     ),
                     SizedBox(
                       width: 35,
                     ),
                     Button(
                       text: "LinkedIn",
+                      text1: Link(""),
                     ),
                   ],
                 ),

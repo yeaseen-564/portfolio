@@ -16,7 +16,9 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        Link('$text1');
+      },
       child: Text(text),
       style: ElevatedButton.styleFrom(
         primary: Colors.redAccent,
